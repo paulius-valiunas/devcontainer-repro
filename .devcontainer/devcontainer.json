@@ -1,0 +1,10 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+  "name": "repro-linux",
+  "dockerFile": "./Dockerfile",
+  "context": ".",
+  "workspaceFolder": "/workspaces/repro",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "zsh"
+  }
+}
